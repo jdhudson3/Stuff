@@ -13,5 +13,5 @@ app.use('/collatz', collatzRouter);
 app.use('/cache', cacheRouter);
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Sample app listening at http://localhost:${port}`)
 })
