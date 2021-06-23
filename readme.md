@@ -13,3 +13,8 @@ Primary data generation, which simply returns a number.
 Cache information, json formatted.
  - /cache/stats
  - /cache/dump
+
+--- 
+Typescript is required, and the service can be compiled with a simple `tsc` call
+
+The service can then be run locally via `node ./out/app`
